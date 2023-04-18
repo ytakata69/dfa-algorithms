@@ -1,16 +1,16 @@
-./findfa.py < all.txt	Yes
-./findfa.py < m1.txt	Yes
-./findfa.py < q4c.txt	Yes
-./findfa.py < q4k.txt	No
-./findfa.py < q4l.txt	Yes
-./findfa.py < q4m.txt	No
-./findfa.py < q4n.txt	Yes
-./findfa.py < q5a.txt	Yes
-./findfa.py < q5aui.txt	Yes
-./findfa.py < q5i.txt	Yes
-sed '2s/ab/01/' q1m1.txt | ./findfa.py	Yes
-sed '2s/ab/01/' q1m2.txt | ./findfa.py	Yes
-sed '2s/ab/01/' q2g.txt | ./findfa.py	Yes
-sed '2s/ab/01/' q3c.txt | ./findfa.py	Yes
-sed '2s/ab/01/' q3g.txt | ./findfa.py	Yes
-sed '2s/ab/01/' q3h.txt | ./findfa.py	Yes
+./findfa.py < all.txt	No
+./findfa.py < m1.txt	No
+./findfa.py < q4c.txt	No
+./findfa.py < q4k.txt	Yes
+./findfa.py < q4l.txt	No
+./findfa.py < q4m.txt	Yes
+./findfa.py < q4n.txt	No
+./findfa.py < q5a.txt	No
+./findfa.py < q5aui.txt	No
+./findfa.py < q5i.txt	No
+./findfa.py < q1m1.txt	No
+./findfa.py < q1m2.txt	No
+./findfa.py < q2g.txt	No
+./findfa.py < q3c.txt	No
+./findfa.py < q3g.txt	No
+./findfa.py < q3h.txt	No
