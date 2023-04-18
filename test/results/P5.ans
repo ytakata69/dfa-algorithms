@@ -1,0 +1,16 @@
+./a111dfa.py < all.txt	Yes
+./a111dfa.py < m1.txt	No
+./a111dfa.py < q4c.txt	No
+./a111dfa.py < q4k.txt	No
+./a111dfa.py < q4l.txt	No
+./a111dfa.py < q4m.txt	No
+./a111dfa.py < q4n.txt	Yes
+./a111dfa.py < q5a.txt	No
+./a111dfa.py < q5aui.txt	No
+./a111dfa.py < q5i.txt	No
+sed '2s/ab/01/' q1m1.txt | ./a111dfa.py	No
+sed '2s/ab/01/' q1m2.txt | ./a111dfa.py	No
+sed '2s/ab/01/' q2g.txt | ./a111dfa.py	No
+sed '2s/ab/01/' q3c.txt | ./a111dfa.py	No
+sed '2s/ab/01/' q3g.txt | ./a111dfa.py	No
+sed '2s/ab/01/' q3h.txt | ./a111dfa.py	Yes
