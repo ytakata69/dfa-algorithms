@@ -4,10 +4,13 @@
 # where the system-under-testing takes two DFAs as input.
 
 # the directory and the name of the system-under-testing
-sutdir=../..
+sutdir=../../yt
 sut=${sutdir}/incldfa.py
 
-sutb=$(basename "${sut}")
+case x"$1"x in
+xx) ;;
+*)  sut="$1" ;;
+esac
 
 for cat in 01 ab
 do
@@ -18,7 +21,7 @@ do
       dfa1b=$(basename "${dfa1}")
       dfa2b=$(basename "${dfa2}")
       ans=$(cat "${dfa1}" "${dfa2}" | ${sut})
-      printf "cat %s %s | ./%s\t%s\n" "${dfa1b}" "${dfa2b}" "${sutb}" "${ans}"
+      printf "cat %s %s | sut\t%s\n" "${dfa1b}" "${dfa2b}" "${ans}"
     done
   done
 done

@@ -6,7 +6,7 @@
 # You can specify the name of the sut by the command-line argument
 
 # the directory and the name of the system-under-testing
-sutdir=../..
+sutdir=../../yt
 sut=${sutdir}/111dfa.py
 
 case x"$1"x in
@@ -14,14 +14,12 @@ xx) ;;
 *)  sut="$1" ;;
 esac
 
-sutb=$(basename "${sut}")
-
 cat=01
 for dfa in ../${cat}/dfa/*.txt
 do
   dfab=$(basename "${dfa}")
   ans=$(${sut} < "${dfa}")
-  printf "./%s < %s\t%s\n" "${sutb}" "${dfab}" "${ans}"
+  printf "sut < %s\t%s\n" "${dfab}" "${ans}"
 done
 
 # replace the alphabet "ab" with "01" while testing
@@ -30,5 +28,5 @@ for dfa in ../${cat}/dfa/*.txt
 do
   dfab=$(basename "${dfa}")
   ans=$(sed '2s/ab/01/' "${dfa}" | ${sut})
-  printf "sed '2s/ab/01/' %s | ./%s\t%s\n" "${dfab}" "${sutb}" "${ans}"
+  printf "sed '2s/ab/01/' %s | sut\t%s\n" "${dfab}" "${ans}"
 done

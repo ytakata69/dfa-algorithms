@@ -1,16 +1,17 @@
-./111dfa.py < all.txt	Yes
-./111dfa.py < m1.txt	Yes
-./111dfa.py < q4c.txt	Yes
-./111dfa.py < q4k.txt	No
-./111dfa.py < q4l.txt	Yes
-./111dfa.py < q4m.txt	No
-./111dfa.py < q4n.txt	Yes
-./111dfa.py < q5a.txt	Yes
-./111dfa.py < q5aui.txt	Yes
-./111dfa.py < q5i.txt	Yes
-sed '2s/ab/01/' q1m1.txt | ./111dfa.py	Yes
-sed '2s/ab/01/' q1m2.txt | ./111dfa.py	Yes
-sed '2s/ab/01/' q2g.txt | ./111dfa.py	Yes
-sed '2s/ab/01/' q3c.txt | ./111dfa.py	Yes
-sed '2s/ab/01/' q3g.txt | ./111dfa.py	Yes
-sed '2s/ab/01/' q3h.txt | ./111dfa.py	Yes
+sut < 0any.txt	Yes
+sut < all.txt	Yes
+sut < m1.txt	Yes
+sut < q4c.txt	Yes
+sut < q4k.txt	No
+sut < q4l.txt	Yes
+sut < q4m.txt	No
+sut < q4n.txt	Yes
+sut < q5a.txt	Yes
+sut < q5aui.txt	Yes
+sut < q5i.txt	Yes
+sed '2s/ab/01/' q1m1.txt | sut	Yes
+sed '2s/ab/01/' q1m2.txt | sut	Yes
+sed '2s/ab/01/' q2g.txt | sut	Yes
+sed '2s/ab/01/' q3c.txt | sut	Yes
+sed '2s/ab/01/' q3g.txt | sut	Yes
+sed '2s/ab/01/' q3h.txt | sut	Yes
