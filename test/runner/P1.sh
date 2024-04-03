@@ -2,9 +2,11 @@
 
 # Testing script for Problem 1,
 # where the system-under-testing takes a DFA and a word as input.
+#
+# Usage: ./P1.sh [program-to-test]
 
-# the directory and the name of the system-under-testing
-sutdir=../../yt
+# default directory and name of the system-under-testing
+sutdir=.
 sut=${sutdir}/adfa.py
 
 case x"$1"x in

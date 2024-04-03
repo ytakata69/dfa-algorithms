@@ -2,6 +2,7 @@
 
 # Sort the input lines according to the lexicographic order
 # (shorter strings first).
+# This script is used by P1.sh to P6.sh in this directory.
 
 import sys
 

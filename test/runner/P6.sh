@@ -2,9 +2,11 @@
 
 # Testing script for Problem 6,
 # where the system-under-testing takes two DFAs as input.
+#
+# Usage: ./P6.sh [program-to-test]
 
 # the directory and the name of the system-under-testing
-sutdir=../../yt
+sutdir=.
 sut=${sutdir}/incldfa.py
 
 case x"$1"x in

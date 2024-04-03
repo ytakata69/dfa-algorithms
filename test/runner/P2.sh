@@ -3,9 +3,11 @@
 # Testing script for Problems 2, 3, and 7,
 # where the system-under-testing takes a DFA as input.
 # You can specify the name of the sut by the command-line argument.
+#
+# Usage: ./P2.sh [program-to-test]
 
 # the directory and the name of the system-under-testing
-sutdir=../../yt
+sutdir=.
 sut=${sutdir}/nedfa.py
 
 case x"$1"x in

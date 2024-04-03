@@ -4,9 +4,11 @@
 # where the system-under-testing takes a DFA as input.
 # (The alphabet of the DFA should contain '1'.)
 # You can specify the name of the sut by the command-line argument
+#
+# Usage: ./P4.sh [program-to-test]
 
 # the directory and the name of the system-under-testing
-sutdir=../../yt
+sutdir=.
 sut=${sutdir}/111dfa.py
 
 case x"$1"x in
