@@ -18,7 +18,7 @@ For Question 1 (1) of Homework 2b:
 1. Put your program in some directory.
    Your program should be an executable file.
 2. Change directory to `runner`.
-3. Run `./P1.sh` path/to/program where path/to/program is
+3. Run `./P1.sh path/to/program` where `path/to/program` is
    the file path to your program to be tested.
    Instead of a file path, a command (quoted by single quotation marks)
    can also be used; e.g., `./P1.sh 'java Hoge'`.
