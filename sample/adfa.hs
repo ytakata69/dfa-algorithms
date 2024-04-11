@@ -8,7 +8,7 @@
 --   $ runghc adfa.hs
 -- or
 --   $ ghc adfa.hs
---   $ ./adfa
+--   $ ./adfa < input_file
 
 -- THIS IS A DUMMY:
 -- This program always outputs "Yes".

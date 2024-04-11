@@ -8,7 +8,7 @@
  *
  * Usage:
  *   $ gcc adfa.c
- *   $ ./a.out
+ *   $ ./a.out < input_file
  */
 
 #include <stdio.h>

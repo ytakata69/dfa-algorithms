@@ -8,7 +8,10 @@
  *
  * Usage:
  *   $ javac adfa.java
- *   $ java Main
+ *   $ java -ea Main < input_file
+ *
+ * (Option "-ea" means "enable assertions"; without it, all assert
+ *  statements are skipped.)
  */
 
 import java.util.Scanner;

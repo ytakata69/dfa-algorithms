@@ -4,6 +4,9 @@
 # Input: a pair of a DFA M and a string w
 # Output: "Yes" if M accepts w. "No" otherwise.
 
+# Usage:
+#   $ python3 adfa.py < input_file
+
 # THIS IS A DUMMY:
 # This program always outputs "Yes".
 

@@ -5,7 +5,7 @@
 # Output: "Yes" if M accepts w. "No" otherwise.
 #
 # Usage:
-#   $ elixir adfa.exs
+#   $ elixir adfa.exs < input_file
 #
 # (If you want to compile this code with elixirc, you have to
 # remove the line `Main.main` at the bottom before compiling.)
