@@ -5,7 +5,7 @@
 -- Output: "Yes" if M accepts w. "No" otherwise.
 --
 -- Usage:
---   $ runghc adfa.hs
+--   $ runghc adfa.hs < input_file
 -- or
 --   $ ghc adfa.hs
 --   $ ./adfa < input_file
