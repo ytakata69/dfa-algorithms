@@ -8,6 +8,8 @@ Question 1 (1) of Homework 2b in various languages.
 * `adfa.py` - Python
 * `adfa.hs` - Haskell
 * `adfa.exs` - Elixir
+* `adfa.js` - JavaScript (Node.js)
+* `adfa.lisp` - Common Lisp
 
 All of these programs read a pair of a DFA M and a string w
 and always output "Yes." (That is, they are dummies.)
