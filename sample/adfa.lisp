@@ -5,6 +5,8 @@
 ; Output: "Yes" if M accepts w. "No" otherwise.
 
 ; Usage:
+;   $ clisp adfa.lisp < input_file
+; or
 ;   $ sbcl --script adfa.lisp < input_file
 
 ; THIS IS A DUMMY:
