@@ -4,6 +4,7 @@ cat 0any.txt loop.txt | sut	No
 cat 0any.txt m1.txt | sut	No
 cat 0any.txt max100.txt | sut	No
 cat 0any.txt min100.txt | sut	No
+cat 0any.txt min5c.txt | sut	No
 cat 0any.txt q4c.txt | sut	No
 cat 0any.txt q4k.txt | sut	No
 cat 0any.txt q4l.txt | sut	No
@@ -18,6 +19,7 @@ cat all.txt loop.txt | sut	No
 cat all.txt m1.txt | sut	No
 cat all.txt max100.txt | sut	No
 cat all.txt min100.txt | sut	No
+cat all.txt min5c.txt | sut	No
 cat all.txt q4c.txt | sut	No
 cat all.txt q4k.txt | sut	No
 cat all.txt q4l.txt | sut	No
@@ -32,6 +34,7 @@ cat loop.txt loop.txt | sut	Yes
 cat loop.txt m1.txt | sut	No
 cat loop.txt max100.txt | sut	No
 cat loop.txt min100.txt | sut	No
+cat loop.txt min5c.txt | sut	Yes
 cat loop.txt q4c.txt | sut	No
 cat loop.txt q4k.txt | sut	No
 cat loop.txt q4l.txt | sut	Yes
@@ -46,6 +49,7 @@ cat m1.txt loop.txt | sut	No
 cat m1.txt m1.txt | sut	Yes
 cat m1.txt max100.txt | sut	No
 cat m1.txt min100.txt | sut	No
+cat m1.txt min5c.txt | sut	No
 cat m1.txt q4c.txt | sut	No
 cat m1.txt q4k.txt | sut	No
 cat m1.txt q4l.txt | sut	No
@@ -60,6 +64,7 @@ cat max100.txt loop.txt | sut	No
 cat max100.txt m1.txt | sut	No
 cat max100.txt max100.txt | sut	Yes
 cat max100.txt min100.txt | sut	No
+cat max100.txt min5c.txt | sut	No
 cat max100.txt q4c.txt | sut	No
 cat max100.txt q4k.txt | sut	No
 cat max100.txt q4l.txt | sut	No
@@ -74,6 +79,7 @@ cat min100.txt loop.txt | sut	No
 cat min100.txt m1.txt | sut	Yes
 cat min100.txt max100.txt | sut	No
 cat min100.txt min100.txt | sut	Yes
+cat min100.txt min5c.txt | sut	Yes
 cat min100.txt q4c.txt | sut	No
 cat min100.txt q4k.txt | sut	No
 cat min100.txt q4l.txt | sut	Yes
@@ -82,12 +88,28 @@ cat min100.txt q4n.txt | sut	Yes
 cat min100.txt q5a.txt | sut	No
 cat min100.txt q5aui.txt | sut	No
 cat min100.txt q5i.txt | sut	No
+cat min5c.txt 0any.txt | sut	No
+cat min5c.txt all.txt | sut	Yes
+cat min5c.txt loop.txt | sut	No
+cat min5c.txt m1.txt | sut	No
+cat min5c.txt max100.txt | sut	No
+cat min5c.txt min100.txt | sut	No
+cat min5c.txt min5c.txt | sut	Yes
+cat min5c.txt q4c.txt | sut	No
+cat min5c.txt q4k.txt | sut	No
+cat min5c.txt q4l.txt | sut	No
+cat min5c.txt q4m.txt | sut	No
+cat min5c.txt q4n.txt | sut	No
+cat min5c.txt q5a.txt | sut	No
+cat min5c.txt q5aui.txt | sut	No
+cat min5c.txt q5i.txt | sut	No
 cat q4c.txt 0any.txt | sut	No
 cat q4c.txt all.txt | sut	Yes
 cat q4c.txt loop.txt | sut	No
 cat q4c.txt m1.txt | sut	No
 cat q4c.txt max100.txt | sut	No
 cat q4c.txt min100.txt | sut	No
+cat q4c.txt min5c.txt | sut	Yes
 cat q4c.txt q4c.txt | sut	Yes
 cat q4c.txt q4k.txt | sut	No
 cat q4c.txt q4l.txt | sut	No
@@ -102,6 +124,7 @@ cat q4k.txt loop.txt | sut	No
 cat q4k.txt m1.txt | sut	No
 cat q4k.txt max100.txt | sut	Yes
 cat q4k.txt min100.txt | sut	No
+cat q4k.txt min5c.txt | sut	Yes
 cat q4k.txt q4c.txt | sut	No
 cat q4k.txt q4k.txt | sut	Yes
 cat q4k.txt q4l.txt | sut	No
@@ -116,6 +139,7 @@ cat q4l.txt loop.txt | sut	No
 cat q4l.txt m1.txt | sut	No
 cat q4l.txt max100.txt | sut	No
 cat q4l.txt min100.txt | sut	No
+cat q4l.txt min5c.txt | sut	Yes
 cat q4l.txt q4c.txt | sut	No
 cat q4l.txt q4k.txt | sut	No
 cat q4l.txt q4l.txt | sut	Yes
@@ -130,6 +154,7 @@ cat q4m.txt loop.txt | sut	Yes
 cat q4m.txt m1.txt | sut	Yes
 cat q4m.txt max100.txt | sut	Yes
 cat q4m.txt min100.txt | sut	Yes
+cat q4m.txt min5c.txt | sut	Yes
 cat q4m.txt q4c.txt | sut	Yes
 cat q4m.txt q4k.txt | sut	Yes
 cat q4m.txt q4l.txt | sut	Yes
@@ -144,6 +169,7 @@ cat q4n.txt loop.txt | sut	No
 cat q4n.txt m1.txt | sut	No
 cat q4n.txt max100.txt | sut	No
 cat q4n.txt min100.txt | sut	No
+cat q4n.txt min5c.txt | sut	No
 cat q4n.txt q4c.txt | sut	No
 cat q4n.txt q4k.txt | sut	No
 cat q4n.txt q4l.txt | sut	No
@@ -158,6 +184,7 @@ cat q5a.txt loop.txt | sut	No
 cat q5a.txt m1.txt | sut	No
 cat q5a.txt max100.txt | sut	No
 cat q5a.txt min100.txt | sut	No
+cat q5a.txt min5c.txt | sut	Yes
 cat q5a.txt q4c.txt | sut	No
 cat q5a.txt q4k.txt | sut	No
 cat q5a.txt q4l.txt | sut	No
@@ -172,6 +199,7 @@ cat q5aui.txt loop.txt | sut	No
 cat q5aui.txt m1.txt | sut	No
 cat q5aui.txt max100.txt | sut	No
 cat q5aui.txt min100.txt | sut	No
+cat q5aui.txt min5c.txt | sut	Yes
 cat q5aui.txt q4c.txt | sut	No
 cat q5aui.txt q4k.txt | sut	No
 cat q5aui.txt q4l.txt | sut	No
@@ -186,6 +214,7 @@ cat q5i.txt loop.txt | sut	No
 cat q5i.txt m1.txt | sut	No
 cat q5i.txt max100.txt | sut	No
 cat q5i.txt min100.txt | sut	No
+cat q5i.txt min5c.txt | sut	Yes
 cat q5i.txt q4c.txt | sut	No
 cat q5i.txt q4k.txt | sut	No
 cat q5i.txt q4l.txt | sut	No

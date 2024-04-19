@@ -4,6 +4,7 @@ sut < loop.txt	Yes
 sut < m1.txt	Yes
 sut < max100.txt	Yes
 sut < min100.txt	Yes
+sut < min5c.txt	Yes
 sut < q4c.txt	Yes
 sut < q4k.txt	Yes
 sut < q4l.txt	Yes
