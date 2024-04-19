@@ -1,5 +1,6 @@
 sut < 0any.txt	Yes
 sut < all.txt	Yes
+sut < loop.txt	Yes
 sut < m1.txt	Yes
 sut < max100.txt	Yes
 sut < min100.txt	Yes
