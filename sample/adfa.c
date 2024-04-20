@@ -15,9 +15,9 @@
 #include <string.h>
 #include <assert.h>
 
-#define MAX_N  100
-#define MAX_T  100
-#define MAX_L  100
+#define MAX_N  10000
+#define MAX_T  50
+#define MAX_L  10000
 
 int main()
 {
@@ -31,6 +31,7 @@ int main()
 
   /* Read a DFA M */
   scanf("%d%d%d", &n, &t, &g);
+  assert(n <= MAX_N && t <= MAX_T && g <= n);
   scanf("%s", s);
   assert(strlen(s) == (unsigned)t);
 
@@ -46,9 +47,9 @@ int main()
 
   /* Read a string w */
   scanf("%d", &l);
+  assert(l <= MAX_L);
   if (l > 0) scanf("%s", w);
   else       strcpy(w, "");
-
   assert(strlen(w) == (unsigned)l);
 
   /* Always output "Yes" */
