@@ -13,6 +13,9 @@ sut < q4n.txt	Yes
 sut < q5a.txt	Yes
 sut < q5aui.txt	Yes
 sut < q5i.txt	Yes
+sut < s111s.txt	Yes
+sut < x1110111.txt	Yes
+sut < x111y.txt	Yes
 sut < q1m1.txt	Yes
 sut < q1m2.txt	Yes
 sut < q2g.txt	Yes

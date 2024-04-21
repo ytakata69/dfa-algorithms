@@ -13,6 +13,9 @@ sut < q4n.txt	No
 sut < q5a.txt	No
 sut < q5aui.txt	No
 sut < q5i.txt	No
+sut < s111s.txt	No
+sut < x1110111.txt	No
+sut < x111y.txt	No
 sut < q1m1.txt	No
 sut < q1m2.txt	No
 sut < q2g.txt	No

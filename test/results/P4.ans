@@ -13,6 +13,9 @@ sut < q4n.txt	Yes
 sut < q5a.txt	Yes
 sut < q5aui.txt	Yes
 sut < q5i.txt	Yes
+sut < s111s.txt	Yes
+sut < x1110111.txt	Yes
+sut < x111y.txt	Yes
 sed '2s/ab/01/' q1m1.txt | sut	Yes
 sed '2s/ab/01/' q1m2.txt | sut	Yes
 sed '2s/ab/01/' q2g.txt | sut	Yes
