@@ -3,12 +3,12 @@
 ## Directories
 
 * `01` - test data on alphabet "01"
-    * `dfa` - descriptions of sample DFAs
-    * `w` - descriptions of sample strings
+    * `dfa` - DFAs
+    * `w` - strings
 * `ab` - test data on alphabet "ab"
-    * `dfa` - descriptions of sample DFAs
-    * `w` - descriptions of sample strings
-* `results` - test results
+    * `dfa` - DFAs
+    * `w` - strings
+* `results` - expected test results
 * `runner` - shell scripts to run tests
 
 ## Using the runner scripts
